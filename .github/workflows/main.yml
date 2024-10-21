@@ -31,4 +31,4 @@ jobs:
       run: docker tag your-app-name mark00420/your-app-name:latest
 
     - name: Push Docker image
-      run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/your-app-name:latest
+      run: docker push mark00420/your-app-name:latest
